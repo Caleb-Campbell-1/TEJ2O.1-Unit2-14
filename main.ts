@@ -2,8 +2,9 @@
  *
  * Created by: Caleb Campbell
  * Created on: Oct 2025
- * This program shows LEDs artound the perimeter while loops in action
+ * This program shows LEDs around the perimeter while loops in action
 */
+
 // variales
 let sprite: game.LedSprite = null
 let loopCounter: number = 0
@@ -52,7 +53,9 @@ input.onButtonPressed(Button.A, function () {
         loopCounter = loopCounter - 1
     }
     sprite.delete()
-
+    led.plot(0, 0)
+    basic.pause(2000)
+    sprite.delete()
 })
 
 
@@ -96,4 +99,8 @@ input.onButtonPressed(Button.B, function () {
         loopCounter = loopCounter - 1
     }
     sprite.delete()
+    led.plot(0, 0)
+    basic.pause(2000)
+    sprite.delete()
+    
 })
