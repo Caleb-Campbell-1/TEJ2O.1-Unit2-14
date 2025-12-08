@@ -10,9 +10,6 @@
         <mxCell id="cWFgF4d5d_3z01hdMjgZ-9" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Start" vertex="1">
           <mxGeometry height="60" width="100" x="260" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="cWFgF4d5d_3z01hdMjgZ-10" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Stop" vertex="1">
-          <mxGeometry height="60" width="100" x="260" y="1160" as="geometry" />
-        </mxCell>
         <mxCell id="cWFgF4d5d_3z01hdMjgZ-11" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="Press button &quot;A&quot;" vertex="1">
           <mxGeometry height="60" width="150" x="250" y="570" as="geometry" />
         </mxCell>
@@ -40,7 +37,7 @@
             <mxPoint x="70" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cWFgF4d5d_3z01hdMjgZ-21" parent="cWFgF4d5d_3z01hdMjgZ-18" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="for&lt;br&gt;&lt;div&gt;&quot;index=0&quot;, index&amp;lt;4, index++, move sprite 1 space&lt;/div&gt;" vertex="1">
+        <mxCell id="cWFgF4d5d_3z01hdMjgZ-21" parent="cWFgF4d5d_3z01hdMjgZ-18" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="for&lt;br&gt;&lt;div&gt;&quot;index=0&quot;, index&amp;lt;4, index++&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="140" as="geometry" />
         </mxCell>
         <mxCell id="cWFgF4d5d_3z01hdMjgZ-22" edge="1" parent="cWFgF4d5d_3z01hdMjgZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
@@ -66,6 +63,24 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="660" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1Jknx-XDJdVGsY4aefK4-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jknx-XDJdVGsY4aefK4-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jknx-XDJdVGsY4aefK4-3" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="move sprite 1 space" vertex="1">
+          <mxGeometry height="60" width="150" x="230" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jknx-XDJdVGsY4aefK4-4" edge="1" parent="1" source="1Jknx-XDJdVGsY4aefK4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="cWFgF4d5d_3z01hdMjgZ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jknx-XDJdVGsY4aefK4-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="150" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jknx-XDJdVGsY4aefK4-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="285" y="880" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
